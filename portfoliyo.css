@@ -138,3 +138,54 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: rgba(70, 66, 62, 0.897);
+    font-size: 14px;
+}
+.experience-title{
+    color: #000000;
+}
+.bt{
+    
+    background-color: #FD6E0A ;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 200px;
+    height: 64px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.last{
+    background-color: #FFF8F3;
+    /* width: 800px; */
+    margin-top: 150px;
+text-align: center;
+    padding: 100px 150px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.pic img{
+    width: 50px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+height: 64px;
+border-radius: 5px;
+background-color: white;
+display: block;
+width: 100%;
+padding: 10px 20px;
+border: none;
+}
